@@ -12,7 +12,6 @@ app.use(express.static('/views'));
 
 // Middleware
 app.use(express.json());
-// app.use('/', products_routes)
 
 // mensaje de bienvenida
 const mensaje = "Welcome to Products API! Register to get API key! (to provide it, place it on header 'api-key' or as URL param 'apikey') Operation API endpoint Register POST /api/users/register List all products GET /api/products List products by ID GET /api/products/:productID Create product POST /api/products Update product PUT /api/products/:productID Delete product DELETE /api/products/:productID";
